@@ -30,6 +30,7 @@ def get_telco_data(use_cache = True):
     '''
     # Command line interaction with SQL server and assignment to dataframe (df)
     df = pd.read_sql(query, get_db_url('telco_churn'))
+    # Creation of csv file
     df.to_csv('telco.csv', index=False)
     # Returns the dataframe
     return df
