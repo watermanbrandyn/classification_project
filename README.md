@@ -1,5 +1,3 @@
-#Reducing Telco Churn (Classification Project)
-
 ## Table of Contents
 - [Project Goals] (#project-goals)
 - [Project Description] (#project-description)
