@@ -12,7 +12,7 @@ def prep_telco(df):
         - modifies total_charges column to address empty value issue and change to proper type
             - drop the NaN values
         - encodes categorical columns and concats them to the telco_df
-    Splits the data into train, validate, test using train_validate_test_split()
+    Splits the data into train, validate, test using telco_split()
     Returns train, validate, test
     '''
     # Drop any duplicates
