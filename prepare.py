@@ -7,13 +7,13 @@ from sklearn.model_selection import train_test_split
 
 def prep_telco(df):
     '''
-    Takes the Telco dataset and returns it after preparing/cleaning it.
-        - drops unnecessary data/columns
-        - modifies total_charges column to address empty value issue and change to proper type
-            - drop the NaN values
-        - encodes categorical columns and concats them to the telco_df
+    Takes a dataframe as an argument and does the following:
+        - Drops columns: 'customer_id', 'internet_service_type_id', 'contract_type_id', payment_type_id'
+        - Modifies total_charges column to address empty value issue and change to proper type
+            - Drops the NaN values (that exist in total_charges)
+        - Encodes categorical columns and concats them to the df
     Splits the data into train, validate, test using telco_split()
-    Returns train, validate, test
+    Returns train, validate, test (dataframes)
     '''
     # Drop any duplicates
     df.drop_duplicates(inplace=True)
@@ -41,7 +41,7 @@ def prep_telco(df):
     
 def telco_split(df):
     '''
-    This function takes in a dataframe and returns train, validate, test splits.
+    This function takes in a dataframe and returns train, validate, test splits. (dataframes)
     An initial 20% of data is split to place as 'test'
     A second split is performed (on the remaining 80%) between train and validate (70/30)
     '''
