@@ -1,3 +1,5 @@
+# Reducing Telco Churn (Classification Project)
+
 ## Project Goals 
 The goal of this analysis is to provide insights and recommendations that reduce overall churn of Telco customers. This will be done by identifying
 some of the key drivers of churn, applying these to classification models in order to best predict churn, and then providing some recommendations that 
