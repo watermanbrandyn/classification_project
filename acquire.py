@@ -1,7 +1,7 @@
 # os needed to do local inspection of cache, to see if data exists locally
 import os
 # env.py contains our credentials to access the SQL server we are pulling the data from
-from env import host, username, password
+from env import host, user, password
 # Pandas is needed to perform SQL interaction
 import pandas as pd
 
