@@ -1,8 +1,5 @@
 ## Table of Contents
 
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ## Project Goals
 The goal of this analysis is to provide insights and recommendations that reduce overall churn of Telco customers. This will be done by identifying
 some of the key drivers of churn, applying these to classification models in order to best predict churn, and then providing some recommendations that 
