@@ -2,10 +2,18 @@
 import os
 # env.py contains our credentials to access the SQL server we are pulling the data from
 from env import host, username, password
-# Function to reference the dataset we want to interact with from SQL server
-from env import get_db_url 
 # Pandas is needed to perform SQL interaction
 import pandas as pd
+
+
+def get_db_url(db_name, username=user, hostname=host, password=password):
+    '''
+    This function requires a database name (db_name) and uses the imported username,
+    hostname, and password from an env file. 
+    A url string is returned using the format required to connect to a SQL server.
+    '''
+    url = f'mysql+pymysql://{username}:{password}@{host}/{db_name}'
+    return url
 
 def get_telco_data(use_cache = True):
     '''
