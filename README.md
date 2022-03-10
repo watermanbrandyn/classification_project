@@ -1,16 +1,7 @@
 ## Table of Contents
-- [Project Goals] (#project-goals)
-- [Project Description] (#project-description)
-- [Initial Questions] (#initial-questions)
-- [Data Dictionary] (#data-dictionary)
-- [How to Reproduce] (#how-to-reproduce)
-- [Project Planning] (#project-planning)
-- [Data Acquisition] (#data-acquisition)
-- [Data Preparation] (#data-preparation)
-- [Data Exploration] (#data-exploration)
-- [Data Modeling] (#data-modeling)
-- [Deliverables] (#deliverables)
-- [Summary/Recommendations] (#summary-and-recommendations)
+
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Project Goals
 The goal of this analysis is to provide insights and recommendations that reduce overall churn of Telco customers. This will be done by identifying
