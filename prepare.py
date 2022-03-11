@@ -25,6 +25,8 @@ def prep_telco(df):
     df.dropna(inplace=True)
     # Create a list of categorical columns
     cat_cols = [col for col in df.columns if df[col].dtype == 'O']
+    # We want to retain customer_id without encoding it across data
+    cat_cols.remove('customer_id')
     # Iterate through the categorical columns to encode them
     for col in cat_cols:
         dummy_df = pd.get_dummies(df[col],
