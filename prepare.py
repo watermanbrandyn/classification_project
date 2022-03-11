@@ -18,7 +18,7 @@ def prep_telco(df):
     # Drop any duplicates
     df.drop_duplicates(inplace=True)
     # Drop duplicated columns
-    df = df.drop(columns=['customer_id', 'internet_service_type_id', 'contract_type_id', 'payment_type_id'])
+    df = df.drop(columns=['internet_service_type_id', 'contract_type_id', 'payment_type_id'])
     # Replaces empty string total_charges as NaN values and converts the column to float
     df.total_charges = df.total_charges.replace(' ', np.nan).astype(float)
     # Drop the NaN values
