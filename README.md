@@ -4,9 +4,8 @@
 > Greetings! I'm Brandyn and this project ...
 
 ## Table of Contents
-- [Project Goal] (#project-goal)
+**[Project Goal] (#project-goal)**<br>
 
-<a name="project-goal"/>
 ## Project Goal
 
 
