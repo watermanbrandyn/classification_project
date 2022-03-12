@@ -1,7 +1,6 @@
 ![Logo of the project](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
 
 # Reducing Telco Churn (Classification Project)
-> Greetings! I'm Brandyn and this project ...
 
 ## Table of Contents
 - [Project Goal](#project-goal)
@@ -19,9 +18,11 @@
     - [Final Report](#final-report)
     - [Modules](#modules)
     - [Predictions](#predictions)
-- [Summary, Conclusion, Recommendations](#summary,-conclusion,-recommendations)
+- [Summary and Recommendations](#summary-and-recommendations)
 
 ## Project Goal
+> The goal of this project is to offer analysis that can help reduce the churn of customers at Telco. This will be done by identifying some 
+> of the key drivers of churn, creating some models to help predict vulnerable customers, and offering some recommendations to avoid the possible churns.   
 
 ## Project Description
 
@@ -51,7 +52,7 @@
 
 #### Predictions
 
-## Summary, Conclusion, Recommendations
+## Summary and Recommendations
 
 
 
