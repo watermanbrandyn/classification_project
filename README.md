@@ -11,8 +11,8 @@
 - [Data Dictionary](#data-dictionary)
 - [Project Plan](#project-plan)
    - [Wrangling](#wrangling)
-    - [Acquire](#acquire)
-    - [Preparation and Splitting](#preparation-and-splitting)
+      - [Acquire](#acquire)
+      - [Preparation and Splitting](#preparation-and-splitting)
   - [Exploration](#exploration)
   - [Modeling](#modeling)
   - [Deliverables](#deliverables)
@@ -23,7 +23,7 @@
 
 ## Project Goal
 
-## Projection Description
+## Project Description
 
 ## How to Reproduce
 
@@ -33,9 +33,9 @@
 
 ## Project Plan
 
-###Wrangling
+### Wrangling
 
-####Acquire
+#### Acquire
 
 #### Preparation and Splitting
 
