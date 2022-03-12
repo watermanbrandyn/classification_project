@@ -4,7 +4,14 @@
 > Greetings! I'm Brandyn and this project ...
 
 ## Table of Contents
-**[Project Goal](#project-goal)
+- [Project Goal](#project-goal)
+- [Project Description](#project-description)
+- [How to Reproduce](#how-to-reproduce)
+- [Initial Questions](#initial-questions)
+- [Data Dictionary](#data-dictionary)
+- [Project Plan](#project-plan)
+- []
+
 
 ## Project Goal
 
