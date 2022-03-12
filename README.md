@@ -4,9 +4,9 @@
 > Greetings! I'm Brandyn and this project ...
 
 ## Table of Contents
-* [Project Goal] (https://github.com/watermanbrandyn/classification_project#project-goal)
+- [Project Goal] (#project-goal)
 
-
+<a name="project-goal"/>
 ## Project Goal
 
 
