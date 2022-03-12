@@ -10,10 +10,48 @@
 - [Initial Questions](#initial-questions)
 - [Data Dictionary](#data-dictionary)
 - [Project Plan](#project-plan)
-- []
-
+   - [Wrangling](#wrangling)
+    - [Acquire](#acquire)
+    - [Preparation and Splitting](#preparation-and-splitting)
+  - [Exploration](#exploration)
+  - [Modeling](#modeling)
+  - [Deliverables](#deliverables)
+    - [Final Report](#final-report)
+    - [Modules](#modules)
+    - [Predictions](#predictions)
+- [Summary, Conclusion, Recommendations](#summary,-conclusion,-recommendations)
 
 ## Project Goal
+
+## Projection Description
+
+## How to Reproduce
+
+## Initial Questions
+
+## Data Dictionary
+
+## Project Plan
+
+###Wrangling
+
+####Acquire
+
+#### Preparation and Splitting
+
+### Exploration
+
+### Modeling
+
+### Deliverables
+
+#### Final Report
+
+#### Modules
+
+#### Predictions
+
+## Summary, Conclusion, Recommendations
 
 
 
