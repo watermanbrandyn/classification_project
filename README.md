@@ -52,6 +52,42 @@ _Initial Business Questions_
 - What is the cost of this churn for Telco? 
 
 ## Data Dictionary
+| Attribute                             | Definition                                      | Data Type | Additional Info    |
+|:--------------------------------------|:------------------------------------------------|:---------:|:-------------------|
+| customer_id                           | Unique ID for each customer                     | object    | Format: 0000-AAAAA |
+| senior_citizen                        | If customer is a senior                         | int64     | 0: No, 1: Yes      |
+| tenure                                | Duration customer has been with Telco           | int64     | In months, 1-72    |
+| monthly_charges                       | Total in $ a customer pays each month           | float64   | Range: 18.25-118.75 | 
+| total_charges                         | Total in $ of customer to date                  | float64   | Range: 18.80-8684.80 |
+| gender_Male                           | If customer is a male                           | uint8     | 0: No, 1: Yes      |  
+| partner_Yes                           | If customer has a partner                       | uint8     | 0: No, 1: Yes      |  
+| dependents_Yes                        | If customer has dependents                      | uint8     | 0: No, 1: Yes      |  
+| phone_service_Yes                     | If customer has phone service                   | uint8     | 0: No, 1: Yes      |  
+| multiple_lines_No phone service       | If customer has multiple phone lines (no phone) | uint8     | 0: No, 1: Yes      |  
+| multiple_lines_Yes                    | If customer has multiple phone lines            | uint8     | 0: No, 1: Yes      |  
+| online_security_No internet service   | If customer has online security (no internet)   | uint8     | 0: No, 1: Yes      |  
+| online_security_Yes                   | If customer has online security                 | uint8     | 0: No, 1: Yes      |   
+| online_backup_No internet service     | If customer has online backup (no internet)     | uint8     | 0: No, 1: Yes      |  
+| online_backup_Yes                     | If customer has online backup                   | uint8     | 0: No, 1: Yes      |  
+| device_protection_No internet service | If customer has device protection (no internet) | uint8     | 0: No, 1: Yes      | 
+| device_protection_Yes                 | If customer has device protection               | uint8     | 0: No, 1: Yes      |  
+| tech_support_No internet service      | If customer has tech support (no internet)      | uint8     | 0: No, 1: Yes      |  
+| tech_support_Yes                      | If customer has tech support                    | uint8     | 0: No, 1: Yes      |  
+| streaming_tv_No internet service      | If customer has streaming tv (no internet)      | uint8     | 0: No, 1: Yes      |  
+| streaming_tv_Yes                      | If customer has streaming tv                    | uint8     | 0: No, 1: Yes      |  
+| streaming_movies_No internet service  | If customer has streaming movies (no internet)  | uint8     | 0: No, 1: Yes      |  
+| streaming_movies_Yes                  | If customer has streaming movies                | uint8     | 0: No, 1: Yes      |  
+| paperless_billing_Yes                 | If customer has paperless billing               | uint8     | 0: No, 1: Yes      |  
+| churn_Yes                             | If customer has churned                         | uint8     | 0: No, 1: Yes      |  
+| internet_service_type_Fiber optic     | If customer has Fiber for internet service      | uint8     | 0: No, 1: Yes      |  
+| internet_service_type_None            | If customer does not have internet service      | uint8     | 0: No, 1: Yes      |  
+| contract_type_One year                | If customer contract is for one year            | uint8     | 0: No, 1: Yes      |  
+| contract_type_Two year                | If customer contract is for two years           | uint8     | 0: No, 1: Yes      |  
+| payment_type_Credit card (automatic)  | If customer payment type is credit card (auto)  | uint8     | 0: No, 1: Yes      |  
+| payment_type_Electronic check         | If customer payment type is electronic check    | uint8     | 0: No, 1: Yes      |  
+| payment_type_Mailed check             | If customer payment type is mailed check        | uint8     | 0: No, 1: Yes      |
+Not shown but present through encoding: internet_service_type_DSL, contract_type_none (Month to month), payment_type_Bank transfer (auto)
+
 
 ## Project Plan
 This project will start with some initial planning and question exploration before we even access the data. The question exploration has been delved out in the _Initial Questions_ section. 
