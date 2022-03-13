@@ -21,7 +21,7 @@
 - [Summary and Recommendations](#summary-and-recommendations)
 
 ## Project Goal
-> The goal of this project is to offer analysis that can help reduce the churn of customers at Telco. 
+The goal of this project is to offer analysis that can help reduce the churn of customers at Telco. 
 This will be done by identifying some of the key drivers of churn, creating models to help predict vulnerable customers, and offering recommendations to avoid these possible churns.   
 
 ## Project Description
@@ -37,7 +37,19 @@ To reproduce the outcomes in this project:
    - Supplemental 'classification_workbook' may also be useful in identifying some of the steps taken prior to the cleaner final code 
 
 ## Initial Questions
+_What is our minimum viable product? (MVP)_
+At a minimum this project aims to provide at least 4 drivers of churn, 3 models that perform better than baseline, and 2 recommendations for Telco moving forward.  
 
+_Initial Data Centric Questions_
+- What is our baseline of churn?
+- Does type of service impact churn?
+- Does internet type impact churn?
+- Do any demographic attributes impact churn?
+- Does cost impact churn?
+- Does tenure duration impact churn?
+
+_Initial Business Questions_
+- What is the cost of this churn for Telco? 
 
 ## Data Dictionary
 
@@ -49,6 +61,7 @@ Additionally let us detail what is to be provided at the conclusion of this proj
  - Workbooks and modules used
 
 Moving forward we will **wrangle (acquire/prepare)** our data, **explore** for insights on key drivers, create **models** for prediction, and apply the best ones for the purpose of curating some **predictions**. This will all be **summarized** and **recommendations** for Telco will be provided. 
+For a more detailed breakdown of these steps please see the Final Report and workbooks provided. 
 
 ### Wrangling
 This section contains our acquisition and preparation of the data.
