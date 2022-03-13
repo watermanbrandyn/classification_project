@@ -86,6 +86,7 @@ _Initial Business Questions_
 | payment_type_Credit card (automatic)  | If customer payment type is credit card (auto)  | uint8     | 0: No, 1: Yes      |  
 | payment_type_Electronic check         | If customer payment type is electronic check    | uint8     | 0: No, 1: Yes      |  
 | payment_type_Mailed check             | If customer payment type is mailed check        | uint8     | 0: No, 1: Yes      |
+
 Not shown but present through encoding: internet_service_type_DSL, contract_type_none (Month to month), payment_type_Bank transfer (auto)
 
 
