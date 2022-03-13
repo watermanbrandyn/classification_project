@@ -42,14 +42,25 @@ To reproduce the outcomes in this project:
 ## Data Dictionary
 
 ## Project Plan
+This project will start with some initial planning and question exploration before we even access the data. The question exploration has been delved out in the _Initial Questions_ section. 
+Additionally let us detail what is to be provided at the conclusion of this project:
+ - This README.md
+ - Final Report.ipynb 
+ - Workbooks and modules used
+
+Moving forward we will **wrangle (acquire/prepare)** our data, **explore** for insights on key drivers, create **models** for prediction, and apply the best ones for the purpose of curating some **predictions**. This will all be **summarized** and **recommendations** for Telco will be provided. 
 
 ### Wrangling
-
+This section contains our acquisition and preparation of the data.
 #### Acquire
+The acquire.py file contains the code that was used for acquiring the 'telco_churn' data. There is a **get_db_url()** function that is used to format the credentials for interacting with a SQL server, and the **get_telco_data()** function that queries the SQL server for the data. For this project Codeup's 'telco_churn' SQL database was used. The env.py file used, and the credentials within, are not included in this project and as covered under _How To Reproduce_ must be curated with one's own information.
 
 #### Preparation and Splitting
+The prepare.py file contains the code that was used for preparing the data. There is a **telco_split()** function that is used to create a train, validate, and test splits (3 dataframes) of the prepared dataframe. These splits are 56% train, 24% validate, and 20% test from the prepared dataframe. The **prep_telco()** function takes the acquired dataframe and cleans it for our exploratory purposes. Within this function the **telco_split()** function is utilized. 
 
 ### Exploration
+For exploration only our train dataframe is used and...
+
 
 ### Modeling
 
