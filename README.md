@@ -89,7 +89,6 @@ _Initial Business Questions_
 
 Not shown but present through encoding: internet_service_type_DSL, contract_type_none (Month to month), payment_type_Bank transfer (auto)
 
-
 ## Project Plan
 This project will start with some initial planning and question exploration before we even access the data. The question exploration has been delved out in the _Initial Questions_ section. 
 Additionally let us detail what is to be provided at the conclusion of this project:
