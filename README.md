@@ -38,7 +38,7 @@ To reproduce the outcomes in this project:
 
 ## Initial Questions
 _What is our minimum viable product? (MVP)_
-At a minimum this project aims to provide at least 4 drivers of churn, 3 models that perform better than baseline, and 2 recommendations for Telco moving forward.  
+ At a minimum this project aims to provide at least 4 drivers of churn, 3 models that perform better than baseline, and 2 recommendations for Telco moving forward.  
 
 _Initial Data Centric Questions_
 - What is our baseline of churn?
