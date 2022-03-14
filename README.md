@@ -108,8 +108,7 @@ The acquire.py file contains the code that was used for acquiring the 'telco_chu
 The prepare.py file contains the code that was used for preparing the data. There is a **telco_split()** function that is used to create a train, validate, and test splits (3 dataframes) of the prepared dataframe. These splits are 56% train, 24% validate, and 20% test from the prepared dataframe. The **prep_telco()** function takes the acquired dataframe and cleans it for our exploratory purposes. Within this function the **telco_split()** function is utilized. 
 
 ### Exploration
-For exploration only our train dataframe is used and...
-
+For exploration we used only our train dataframe. The explore.py file contains a number of functions that were used to help gain insights into our data, using both visual and statistical methods. 
 
 ### Modeling
 
