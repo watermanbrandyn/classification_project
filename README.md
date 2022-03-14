@@ -1,5 +1,3 @@
-![Logo of the project](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
-
 # Reducing Telco Churn (Classification Project)
 
 ## Table of Contents
@@ -108,31 +106,43 @@ The acquire.py file contains the code that was used for acquiring the 'telco_chu
 The prepare.py file contains the code that was used for preparing the data. There is a **telco_split()** function that is used to create a train, validate, and test splits (3 dataframes) of the prepared dataframe. These splits are 56% train, 24% validate, and 20% test from the prepared dataframe. The **prep_telco()** function takes the acquired dataframe and cleans it for our exploratory purposes. Within this function the **telco_split()** function is utilized. 
 
 ### Exploration
-For exploration we used only our train dataframe. The explore.py file contains a number of functions that were used to help gain insights into our data, using both visual and statistical methods. 
+For exploration we used only our train dataframe. The explore.py file contains a number of functions that were used to help gain insights into our data, using both visual and statistical methods. We delved out the key factors of churn and curating train, validate, and test dataframes to include only these features. The main takeaways from exploration are that churn is most influenced by:
+- Fiber service
+- Not having a contract
+- Electronic check payment
+- Tenure (low duration)
+- Having a higher monthly cost
+- Being a senior citizen
 
 ### Modeling
+We created a number of models from Decision Tree, Random Forest, K-Nearest Neighbor (KNN), and Logistic Regression types using our selected feature sets. Our report covers the top three performing models (1 KNN, 2 Random Forest) with the best performance being a Random Forest model. From this model we obtained a **90%** accuracy on our test dataframe. This is well above the baseline accuracy of 73% and means that this model should perform well on future unseen data as well.
 
 ### Deliverables
+The main deliverables from this project are the Final Report and the predictions csv. Additionally there are modules that contain the functions used and workbooks where a deeper exploration of the process can be seen.
 
 #### Final Report
+The Final Report can be ran to reproduce the same results from start to finish. 
 
 #### Modules
+The modules included in this project are:
+- acquire.py
+- prepare.py
+- explore.py
+- model.py
 
 #### Predictions
+The predictions.csv file contains the predictions for our train, validate, and test set showing customer_id, prediction, and prediction probability. 
 
 ## Summary and Recommendations
+We were successful at identifying some key drivers of churn that were:
+- Having Fiber service (Phone and Internet)
+- Not having a contract
+- Electronic check payment
+- Having a low tenure duration
+- Having a higher monthly cost
+- Being a senior citizen
+
+Moving forward the areas that would be the most impactful for Telco to take action on would be addressing the underlying issues with Fiber satisfaction. This group has the highest liklihood of churn and should be prioritized above all else. Additionally, looking at incentives that could have customers switch from Month to Month payments to a contract (preferably a Two year one) would have a large impact on churn. 
 
 
 
-## Installing / Getting started
-
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
-
-```shell
-packagemanager install awesome-project
-awesome-project start
-awesome-project "Do something!"  # prints "Nah."
-```
-
-Here you should say what actually happens when you execute the code above.
