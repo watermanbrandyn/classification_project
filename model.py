@@ -128,6 +128,33 @@ def random_forest(min_samples, max_depth, x_c, y_c):
     print(class_report)
 
 
+def random_forest_csv(min_samples, max_depth, x_c, y_c, cust_id):
+    '''
+    This function will take in our hyperparameters for our Random Forest model (the best performing one preferably), the x and y components of our test dataframe
+    and the cust_id's for our test dataframe and create a .csv prediction file that contains customer_id, churn_probability, and churn_prediction.
+    '''
+    # Creation of our model parameters. All of these other than min_samples_leaf, max_depth, and random_state are defaults.
+    # min_samples_leaf and max_depth will be manipulated to change our model outcomes and random_state will remain the same for reproducibility.
+    rf = RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini', min_samples_leaf=min_samples,
+                           n_estimators=100, max_depth=max_depth, random_state=123)
+    # Fitting our model
+    rf.fit(x_c, y_c)
+    # Our predictions are made
+    y_pred = rf.predict(x_c)
+    # Prediction probabilities, with the churn selected
+    y_pred_proba = rf.predict_proba(x_c)[:,1]
+    # Create our predictions dataframe
+    predictions = pd.DataFrame(columns=['customer_id', 'churn_probability', 'churn_prediction'])
+    # Add our customer_ids
+    predictions['customer_id'] = cust_id.customer_id
+    # Add our prediction probabilities
+    predictions['churn_probability'] = y_pred_proba
+    # Add our predictions
+    predictions['churn_prediction'] = y_pred
+    # Set customer_id as the index
+    predictions = predictions.set_index('customer_id')
+    # Write to a .csv file
+    predictions.to_csv('test_predictions.csv')
 
 
 
