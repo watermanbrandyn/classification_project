@@ -131,7 +131,7 @@ The modules included in this project are:
 - model.py
 
 #### Predictions
-The predictions.csv file contains the predictions for our train, validate, and test set showing customer_id, prediction, and prediction probability. 
+The random_forest_csv() function in our model module will output the predictions for our test set from our best performing Random Forest model. It contains customer_id, prediction, and prediction probability. 
 
 ## Summary and Recommendations
 We were successful at identifying some key drivers of churn that were:
